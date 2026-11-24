@@ -147,35 +147,35 @@ export const MainInvitation: React.FC = () => {
             <p className="font-serif-display text-lg text-rose-deep font-medium mb-4">
               (منتظرین و چشمِ براہ)
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 max-w-3xl mx-auto mt-4 text-foreground/85">
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+            <div className="grid grid-cols-2 gap-2.5 sm:gap-3.5 max-w-2xl mx-auto mt-4 text-foreground/85 text-sm sm:text-base">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Haji Mohd. Yunus
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Tayyab
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Nazim
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Asim
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Qasim
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Roshan Jama
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Shahid
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Hashim
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Waseem
               </div>
-              <div className="bg-white/50 border border-gold-soft/60 rounded-xl py-2 px-3 sm:col-span-2 md:col-span-3">
+              <div className="bg-white/60 border border-gold-soft/70 rounded-xl py-2.5 px-3 shadow-sm font-medium">
                 Mohd. Shameem
               </div>
             </div>
@@ -192,11 +192,14 @@ export const MainInvitation: React.FC = () => {
               Where We Celebrate
             </h2>
             <Divider />
-            <p className="font-serif-display text-xl text-foreground/85 leading-relaxed max-w-xl mx-auto font-medium">
+            <p className="font-serif-display text-2xl sm:text-3xl text-rose-deep leading-relaxed max-w-xl mx-auto font-bold tracking-wide">
+              Asia Lawn
+            </p>
+            <p className="font-serif-display text-lg sm:text-xl text-foreground/85 leading-relaxed max-w-xl mx-auto font-medium mt-1">
               Raebareli, Uttar Pradesh
             </p>
-            <p className="font-serif-display text-base text-foreground/75 mt-1">
-              رائے بریلی، اتر پردیش
+            <p className="font-serif-display text-base text-foreground/75 mt-0.5">
+              ایشیا لان، رائے بریلی، اتر پردیش
             </p>
             <div className="mt-4 flex flex-wrap justify-center gap-4 text-sm sm:text-base text-foreground/80">
               <span className="bg-white/60 px-4 py-1.5 rounded-full border border-gold-soft shadow-sm">
@@ -214,7 +217,7 @@ export const MainInvitation: React.FC = () => {
           >
             <iframe
               title="Venue map"
-              src="https://www.google.com/maps?q=Raebareli,+Uttar+Pradesh&output=embed"
+              src="https://www.google.com/maps?q=Asia+Lawn,+Raebareli&output=embed"
               className="w-full h-[360px] border-0"
               loading="lazy"
               allowFullScreen
@@ -223,7 +226,7 @@ export const MainInvitation: React.FC = () => {
 
           <FadeIn delay={250}>
             <a
-              href="https://www.google.com/maps/search/Raebareli,+Uttar+Pradesh"
+              href="https://www.google.com/maps/search/Asia+Lawn,+Raebareli"
               target="_blank"
               rel="noreferrer"
               className="inline-block mt-8"
@@ -233,7 +236,7 @@ export const MainInvitation: React.FC = () => {
                 className="gradient-gold text-white border-0 hover:opacity-95 rounded-full px-8 h-12 shadow-gold inline-flex items-center justify-center font-medium text-base transition-all duration-300 transform hover:scale-105 active:scale-95"
               >
                 <Navigation className="mr-2 h-4 w-4" />
-                Get Directions to Raebareli
+                Get Directions to Asia Lawn
               </button>
             </a>
           </FadeIn>
