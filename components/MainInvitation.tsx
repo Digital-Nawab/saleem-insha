@@ -15,9 +15,10 @@ export const MainInvitation: React.FC = () => {
       {/* Hero Poster / Banner */}
       <section className="w-full flex justify-center bg-cream">
         <img
-          src="/assets/homehero.png"
+          src="/assets/homehero.webp"
           alt="Mohd Saleem & Insha Siddiqui - Wedding Invitation"
           className="w-full max-w-4xl h-auto block shadow-soft"
+          loading="eager"
         />
       </section>
 
@@ -42,9 +43,10 @@ export const MainInvitation: React.FC = () => {
           <FadeIn className="w-full max-w-lg">
             <div className="rounded-3xl overflow-hidden border border-gold-soft shadow-elegant hover:scale-[1.01] transition-transform duration-300">
               <img
-                src="/assets/reception.png"
+                src="/assets/reception.webp"
                 alt="Reception Ceremony - Dawat-e-Walima"
                 className="w-full h-auto object-cover block shadow-soft"
+                loading="lazy"
               />
             </div>
           </FadeIn>

@@ -142,7 +142,7 @@ export const ScratchCard: React.FC<ScratchCardProps> = ({
   return (
     <div className="relative mx-auto w-full max-w-xl select-none">
       <img
-        src="/countdown-frame.png"
+        src="/countdown-frame.webp"
         alt="Countdown Frame"
         className="block w-full h-auto pointer-events-none select-none"
         draggable={false}
